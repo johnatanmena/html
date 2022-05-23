@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Johnatan Mena (Curriculum)</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="hoja.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<script src="https://kit.fontawesome.com/e8b87f0c7d.js" crossorigin="anonymous"></script>
+    <meta name="description" content="Hoja de vida">
+	<meta name="author" content="Johnata Alexander Mena Salcedo">
+</head>
+<body class="bloque1">
+	<nav class="bloque">
+	<header>
+	
+		<nav>
+			<h1>
+				JOHNATAN ALEXANDER MENA SALCEDO 
+				<br>
+				CC 1038808967 de Chigorodó Antioquia 
+				<br>
+				Celular: 3146148505
+			</h1>
+			<h3>Seleccione un color</h3>
+			<select name="" id="select">
+				<option value=""></option>
+				<option value="1">Rojo</option>
+				<option value="2">Verde</option>
+				<option value="3">Azul</option>
+			</select>
+			<button id="boton">
+				Aplicar
+			</button>
+		
+		</nav>
+		<br>
+		<nav>
+<h1>
+	1. PERFIL OCUPACIONAL
+</h1>
+		</nav>
+		<nav>
+			<p>
+				Ingeniero biomédico, con aptitud y actitudes favorables para el trabajo en equipo, 
+			</p>
+			<p>
+				con alto sentido de pertenencia y responsabilidad con su trabajo; dispuesto al cambio 
+			</p>
+			<p>
+				y al aprendizaje significativo en el día a día.
+			</p>
+		</nav>
+		<br>
+		<nav>
+			<img src="foto.jpg" height="200" class="foto">
+		</nav>
+		<br>
+		<nav>
+			<h1>
+				2. DATOS PERSONALES
+				
+			</h1>
+					</nav>
+					<nav class="nav1">
+						<button class="boton1">
+						<a href="personal.html" >
+						Ver
+							</button>
+						</a>
+					</nav>
+		<br>
+		<br>
+		<nav>
+			<h1>
+				3. DATOS ACADÉMICOS
+			</h1>
+			<nav>
+				<button class="boton1">
+				<a href="academicos.html">
+				
+						Ver 
+					</button>
+				</a>
+			</nav>
+					</nav>
+					<br>
+						<h1>
+							4. EXPERIENCIA LABORAL
+						</h1>
+								</nav>
+							<nav>
+								<button class="boton1">
+								<a href="experiencia.html">
+									
+										Ver
+									</button>
+								</a>
+							</nav>
+							<br>
+								<nav>
+									<h1>
+										5. REFERENCIAS PERSONALES
+									</h1>
+											</nav>
+											<nav>
+												<button class="boton1">
+												<a href="refeperso.html">
+													
+														Ver 
+													</button>
+												</a>
+											</nav>
+											<nav>
+												<br>
+												<h1>
+													5. REFERENCIAS FAMILIARES
+												</h1>
+												<nav>
+													<button class="boton1">
+													<a href="refefami.html">
+														
+															Ver 
+														</button>
+													</a>
+												</nav>
+														</nav>
+	</header>
+
+	<br>
+	<br>
+	<BUtton class="boton1">
+		<a href="imprimir.html">
+			 PDF
+		</a>
+	</BUtton>
+</nav>
+</body>
+</html>
+<script>
+ const boton = document.querySelector("#boton");
+                          boton.addEventListener('click', async() => {
+let x = document.getElementById("select").value;
+let elemento = document.body;
+try {
+	if(x == "1"){
+	let g = elemento.style.backgroundColor = "#F77";
+console.log("Hola")
+}
+if(x == "2"){
+	let g = elemento.style.backgroundColor = "#008880";
+console.log("Hola")
+}
+if(x == "3"){
+	let g = elemento.style.backgroundColor = "#8888FF";
+console.log("Hola")
+}
+} catch (error) {
+	console.log(error)
+}
+						  })
+
+</script>
